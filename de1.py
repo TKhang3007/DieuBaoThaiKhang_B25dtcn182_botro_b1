@@ -6,8 +6,8 @@ if not input_price.isdigit():
 else:
     input_price = int(input_price)
     input_quantity = input("Nhập số lượng mua: ")
-    if not input_quantity.isdigit:
-        print("Số lượng mua phải là số và là phải số nguyên")
+    if not input_quantity.isdigit():
+        print("Số lượng mua phải là số và phải là số nguyên")
     else:
         input_quantity = int(input_quantity)
         amount_due = input_price * input_quantity
